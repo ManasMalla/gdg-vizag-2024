@@ -12,10 +12,7 @@
           Stay updated on the products you love
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          incidunt fuga, architecto reprehenderit corporis necessitatibus! Eius
-          quae voluptate provident iusto laudantium eum reprehenderit, officia
-          aperiam odio et explicabo tenetur cupiditate.
+          At sessions that span from the technical to the visionary, let&apos;s celebrate and discover what the technologies can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us.
         </p>
         <v-container fluid>
           <v-row justify="start" align="start">
