@@ -5,7 +5,9 @@
       :key="index"
       class="google-font mb-5 mt-0"
     >
-      <v-col md="12" cols="12" class="mb-n1"><b>{{ item.category_name }}</b></v-col>
+      <v-col md="12" cols="12" class="mb-n1"
+        ><b>{{ item.category_name }}</b></v-col
+      >
       <v-col
         md="2"
         cols="6"
@@ -20,6 +22,7 @@
               <a :href="sponsor.link" target="_blank" v-bind="attrs" v-on="on">
                 <v-img
                   :src="require('@/assets/img/sponsors/' + sponsor.logo)"
+                  style="border-radius: 8px"
                 ></v-img>
               </a>
             </template>
@@ -41,5 +44,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

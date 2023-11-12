@@ -1,5 +1,5 @@
 {
-  "name":"DevFest Jakarta",
+  "name":"DevFest Vizag",
   "cover_image":"cover.png",
   "desc": {
     "short": "An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.",
@@ -9,40 +9,40 @@
     "DevFest2023",
     "CommunityName"
   ],
-  "date": "Oct 23, 2023",
+  "date": "December 02, 2023",
   "time": "10 am IST",
   "venue": {
-    "name": "Hotel Name",
+    "name": "Gandhi Institute of Technology and Management",
     "address": "23b, Morden Town",
     "city": "",
     "pincode": "",
     "map": ""
   },
   "registration": {
-    "link":"https://techferment.com",
+    "link":"",
     "status": "1"
   },
   "call_for_speakers": {
-    "status": "0",
-    "link": "",
-    "lastdate": ""
+    "status": "1",
+    "link": "https://sessionize.com",
+    "lastdate": "2023-12-20"
   },
   "stats": [
     {
       "name": "Tracks",
-      "value": "4"
+      "value": "TBA"
     },
     {
       "name": "Speakers",
-      "value": "20+"
+      "value": "TBA"
     },
     {
       "name": "Participants",
-      "value": "500+"
+      "value": "TBA"
     },
     {
       "name": "Sessions",
-      "value": "20"
+      "value": "TBA"
     },
     {
       "name": "Day",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Workshops",
-      "value": "5"
+      "value": "TBA"
     }
   ],
   "what_to_expect": [
