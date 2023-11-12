@@ -1,13 +1,30 @@
 [
     {
-        "id": "6001",
-        "name": "Vrijraj Singh",
+        "id": "1001",
+        "name": "Usha Ramani Vemuru",
         "company": {
-            "name": "agprop",
-            "designation": "Tech Lead"
+            "name": "Gurujada IT Solutions",
+            "designation": "Co-Founder"
         },
-        "community_title": "Google Developer Expert for Firebase & Web",
-        "image": "",
+        "community_title": "Organizer & WTM Ambassador",
+        "image": "usha.png",
+        "bio": "I'm an ed-tech entrepreneur passionate about enhancing the efficacy of the TEACHING LEARNING process. Through my company GURUJADA, we are trying to help teachers teach better and learners learn better on the online medium. Community: The developer ecosystem in Vizag is young, curious and sincere. While there are a lot of talented students from the technology colleges and universities around, the number of professionals from around the state interested in community learning and latest tools are steadily increasing. Coming from an academic background, I want my community to be the hub for the student developers and young professionals. Bringing the huge talent pool of the state together from across the colleges and companies and creating an ecosystem of learning, sharing, collaborating and empowering is what I'm after. Through GDG Vizag/WTM Vizag, I'm building a safe tech based community of like minded individuals where everyone can learn together, help each other, brainstorm and eventually build solutions for local problems. We are actively conducting events and experiences with this premise. I also mentor WTM girls and GDSC leads to transform them as leaders capable of taking charge of their communities. I'm also a I'm Remarkable Gold facilitator and advocate equality in workplace.",
+        "social": {
+            "linkedin": "asd",
+            "twitter": "asd",
+            "web": "asd"
+        },
+        "type":"Core"
+    },
+    {
+        "id": "1002",
+        "name": "Sampath Kumar Balivada",
+        "company": {
+            "name": "PayPal",
+            "designation": "SDE"
+        },
+        "community_title": "Organizer",
+        "image": "sampath.jpg",
         "bio": "Vrijraj is a dedicated Tech Lead at agprop and a passionate advocate for community engagement. He actively contributes to the TechFerment community and holds the esteemed title of Google Developers Expert for Firebase and Web Technologies. With a wealth of experience, he has conducted over 300 talks and workshops, sharing his knowledge with various communities. Vrijraj's expertise lies in Web development, Firebase, Google Cloud Platform, and UI/UX Design. He possesses a strong drive for learning new technologies and leveraging them to build innovative solutions. Alongside his professional endeavors, Vrijraj takes pleasure in mentoring individuals and nurturing communities. During his leisure time, he indulges in his love for food and enjoys watching YouTube videos.",
         "social": {
             "linkedin": "asd",
@@ -18,13 +35,13 @@
     },
     {
         "id": "6002",
-        "name": "Vrijraj Singh",
+        "name": "Bala Tripura Sundari Vemulakonda",
         "company": {
-            "name": "agprop",
-            "designation": "Tech Lead"
+            "name": "Ekfrazo Technologies",
+            "designation": "HR"
         },
-        "community_title": "Google Developer Expert for Firebase & Web",
-        "image": "",
+        "community_title": "WTM Ambassador",
+        "image": "bala.webp",
         "bio": "Vrijraj is a dedicated Tech Lead at agprop and a passionate advocate for community engagement. He actively contributes to the TechFerment community and holds the esteemed title of Google Developers Expert for Firebase and Web Technologies. With a wealth of experience, he has conducted over 300 talks and workshops, sharing his knowledge with various communities. Vrijraj's expertise lies in Web development, Firebase, Google Cloud Platform, and UI/UX Design. He possesses a strong drive for learning new technologies and leveraging them to build innovative solutions. Alongside his professional endeavors, Vrijraj takes pleasure in mentoring individuals and nurturing communities. During his leisure time, he indulges in his love for food and enjoys watching YouTube videos.",
         "social": {
             "linkedin": "asd",
@@ -35,10 +52,27 @@
     },
     {
         "id": "6002",
-        "name": "Vrijraj Singh",
+        "name": "Manas Malla",
         "company": {
-            "name": "agprop",
-            "designation": "Tech Lead"
+            "name": "Ananta LLP",
+            "designation": "Founder"
+        },
+        "community_title": "Core Contributor",
+        "image": "manas.jpg",
+        "bio": "Vrijraj is a dedicated Tech Lead at agprop and a passionate advocate for community engagement. He actively contributes to the TechFerment community and holds the esteemed title of Google Developers Expert for Firebase and Web Technologies. With a wealth of experience, he has conducted over 300 talks and workshops, sharing his knowledge with various communities. Vrijraj's expertise lies in Web development, Firebase, Google Cloud Platform, and UI/UX Design. He possesses a strong drive for learning new technologies and leveraging them to build innovative solutions. Alongside his professional endeavors, Vrijraj takes pleasure in mentoring individuals and nurturing communities. During his leisure time, he indulges in his love for food and enjoys watching YouTube videos.",
+        "social": {
+            "linkedin": "asd",
+            "twitter": "asd",
+            "web": "asd"
+        },
+        "type":"Core"
+    },
+    {
+        "id": "6002",
+        "name": "Sree Teja Dusi",
+        "company": {
+            "name": "GITAM (Deemed to Be University)",
+            "designation": "Student"
         },
         "community_title": "Google Developer Expert for Firebase & Web",
         "image": "",
@@ -49,5 +83,22 @@
             "web": "asd"
         },
         "type":"Volunteer"
+    },
+    {
+        "id": "6002",
+        "name": "Vasanth Korada",
+        "company": {
+            "name": "Multipl",
+            "designation": "SDE"
+        },
+        "community_title": "Google Developer Expert for Firebase & Web",
+        "image": "",
+        "bio": "Vrijraj is a dedicated Tech Lead at agprop and a passionate advocate for community engagement. He actively contributes to the TechFerment community and holds the esteemed title of Google Developers Expert for Firebase and Web Technologies. With a wealth of experience, he has conducted over 300 talks and workshops, sharing his knowledge with various communities. Vrijraj's expertise lies in Web development, Firebase, Google Cloud Platform, and UI/UX Design. He possesses a strong drive for learning new technologies and leveraging them to build innovative solutions. Alongside his professional endeavors, Vrijraj takes pleasure in mentoring individuals and nurturing communities. During his leisure time, he indulges in his love for food and enjoys watching YouTube videos.",
+        "social": {
+            "linkedin": "asd",
+            "twitter": "asd",
+            "web": "asd"
+        },
+        "type":"Tech"
     }
 ]

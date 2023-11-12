@@ -5,10 +5,10 @@
     "short_desc": "",
     "community_hashtag":"GDGVizag",
     "social_links":{
-        "twitter":"a",
-        "linkedin": "v",
-        "instagram":"x",
-        "facebook": "d",
-        "youtube": "e"
+        "twitter":"https://twitter.com/GDGVizag",
+        "linkedin": "https://linkedin.com/company/gdg-vizag",
+        "instagram":"https://www.instagram.com/gdg_vizag",
+        "facebook": "https://www.facebook.com/VizagGDG/",
+        "youtube": "https://youtube.com/@gdgvizag"
     }
 }

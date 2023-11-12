@@ -15,11 +15,11 @@
             you.
           </p>
         </v-col>
-        
+
         <v-col
-          md="2"
-          cols="6"
-          sm="3"
+          md="3"
+          cols="12"
+          sm="4"
           v-for="(item, index) in teamInfo"
           :key="index"
         >
@@ -29,8 +29,8 @@
     </v-container>
   </v-main>
 </template>
-  
-  <script>
+
+<script>
 import teamJSON from "@/assets/data/team.json";
 import teamCardVue from "@/components/team/teamCard.vue";
 
@@ -44,6 +44,5 @@ export default {
   }),
 };
 </script>
-  
-  <style>
-</style>
+
+<style></style>
