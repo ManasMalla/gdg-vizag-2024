@@ -15,8 +15,9 @@
             tracks. Check out the schedule below and don't forget to mark your
             calendar so that you don't miss out on any sessions.
           </p>
+          <p class="primary-text gdg-h1" style="font-size: 400%;">To Be Announced</p>
         </div>
-          <v-toolbar flat class="px-0" style="border-radius: 15px">
+          <!-- <v-toolbar flat class="px-0" style="border-radius: 15px">
             <v-tabs
               v-model="model"
               color="primary"
@@ -33,7 +34,7 @@
             <v-tab-item v-for="(item, index) in scheduleInfo" :key="index" class="pa-0 ma-0" >
                 <scheduleDetailsVue :data="item"/>
             </v-tab-item>
-          </v-tabs-items>
+          </v-tabs-items> -->
         </v-col>
       </v-row>
     </v-container>
@@ -42,12 +43,12 @@
   
   <script>
 import scheduleJSON from "@/assets/data/schedule.json";
-import scheduleDetailsVue from '@/components/schedule/scheduleDetails.vue';
+// import scheduleDetailsVue from '@/components/schedule/scheduleDetails.vue';
 
 export default {
   name: "SchedulePages",
   components: {
-    scheduleDetailsVue
+    // scheduleDetailsVue
   },
   data: () => ({
     scheduleInfo: scheduleJSON,
