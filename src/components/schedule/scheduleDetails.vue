@@ -9,10 +9,10 @@
     >
       <v-col md="2" cols="3" class="text-right my-0 py-0">
         <p style="font-size: 110%" class="mb-0 google-font">
-          {{ item.startTime }} PM
+          {{ (parseInt(item.startTime.split(":")[0]) > 12 ? parseInt(item.startTime.split(":")[0]) -12 : parseInt(item.startTime.split(":")[0])) + ":" + item.startTime.split(":")[1] }} {{ parseInt(item.startTime.split(":")[0]) < 12 ? "AM" : "PM"}}
         </p>
         <p style="font-size: 70%" class="ma-0 google-font">
-          {{ item.endTime }} PM
+          {{ (parseInt(item.endTime.split(":")[0]) > 12 ? parseInt(item.endTime.split(":")[0]) -12 : parseInt(item.endTime.split(":")[0])) + ":" + item.endTime.split(":")[1] }} {{ parseInt(item.endTime.split(":")[0]) < 12 ? "AM" : "PM"}}
         </p>
         <p class="mt-1 google-font" style="font-size: 60%">
           <b style="color: grey">GMT (+05:30)</b>

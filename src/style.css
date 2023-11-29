@@ -15,6 +15,9 @@
   .primary-text {
     color: #4884f3;
   }
+  .multiline{
+    white-space: pre-line;
+  }
   
   .disabled {
     pointer-events: none;

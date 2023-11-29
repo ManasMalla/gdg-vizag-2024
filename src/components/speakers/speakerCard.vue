@@ -49,7 +49,7 @@
                       <p class="mb-0">
                         {{ item.company.name }}, {{ item.company.designation }}
                       </p>
-                      <span>{{ item.community_title }}</span>
+                      <span class="multiline">{{ item.community_title }}</span>
                     </v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
@@ -137,6 +137,12 @@ export default {
     getProfileImage(img) {
       if (img.length == 0) {
         return require("@/assets/img/common/avatar.jpg");
+      }
+      if(img.includes("http")){
+        return img;
+      }
+      if(img.includes("team/")){
+        return require("@/assets/img/team/" + img.split("team/")[1]);
       }
       return require("@/assets/img/speakers/" + img);
     },

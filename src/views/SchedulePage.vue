@@ -15,9 +15,9 @@
             tracks. Check out the schedule below and don't forget to mark your
             calendar so that you don't miss out on any sessions.
           </p>
-          <p class="primary-text gdg-h1" style="font-size: 400%;">To Be Announced</p>
+          <!-- <p class="primary-text gdg-h1" style="font-size: 400%;">To Be Announced</p> -->
         </div>
-          <!-- <v-toolbar flat class="px-0" style="border-radius: 15px">
+          <v-toolbar flat class="px-0" style="border-radius: 15px">
             <v-tabs
               v-model="model"
               color="primary"
@@ -31,10 +31,10 @@
           </v-toolbar>
 
           <v-tabs-items v-model="model" continuous class="mt-5 py-0" style="background-color: white;border-radius: 15px;">
-            <v-tab-item v-for="(item, index) in scheduleInfo" :key="index" class="pa-0 ma-0" >
+            <v-tab-item v-for="(item, index) in sortedScheduleJson" :key="index" class="pa-0 ma-0" >
                 <scheduleDetailsVue :data="item"/>
             </v-tab-item>
-          </v-tabs-items> -->
+          </v-tabs-items>
         </v-col>
       </v-row>
     </v-container>
@@ -43,17 +43,42 @@
   
   <script>
 import scheduleJSON from "@/assets/data/schedule.json";
-// import scheduleDetailsVue from '@/components/schedule/scheduleDetails.vue';
+import scheduleDetailsVue from '@/components/schedule/scheduleDetails.vue';
 
 export default {
   name: "SchedulePages",
   components: {
-    // scheduleDetailsVue
+    scheduleDetailsVue
   },
   data: () => ({
     scheduleInfo: scheduleJSON,
     model: null,
   }),
+  computed: {
+    sortedScheduleJson() {
+      return this.scheduleInfo.map((item) => {
+        return {
+          date: item.date,
+          schedule: item.schedule.sort((a, b) => {
+
+        console.log(a.startTime, b.startTime);
+            var aHour = parseInt(a.startTime.split(":")[0]);
+            var bHour = parseInt(b.startTime.split(":")[0]);
+            var aMin = parseInt(a.startTime.split(":")[1]);
+            var bMin = parseInt(b.startTime.split(":")[1]);
+
+            var cHour = parseInt(a.endTime.split(":")[0]);
+            var dHour = parseInt(b.endTime.split(":")[0]);
+            var cMin = parseInt(a.endTime.split(":")[1]);
+            var dMin = parseInt(b.endTime.split(":")[1]);
+            var start = (aHour - bHour) * 60 + (aMin - bMin);
+            var end = (cHour - dHour) * 60 + (cMin - dMin);
+            return start + end;
+          }),
+        };
+      })
+    },
+  },
 };
 </script>
   

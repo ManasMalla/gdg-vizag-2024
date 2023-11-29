@@ -14,9 +14,7 @@
             transformation, innovation, and exploration helped solve it with
             you.
           </p>
-          
-          
-          <v-btn
+          <!-- <v-btn
         depressed
         rounded
         target="_blank"
@@ -24,24 +22,24 @@
         :href="devfestInfo.call_for_speakers.link"
         v-if="devfestInfo.call_for_speakers.status==1"
         style="text-transform: none; font-size: 80%; font-weight: 500; margin-top: 12px;"
-        >Apply to become a speaker</v-btn>
+        >Apply to become a speaker</v-btn> -->
         </v-col>
-        <!-- <v-col
+        <v-col
           md="2"
           cols="6"
           sm="3"
-          v-for="(item, index) in speakersInfo"
+          v-for="(item, index) in sortedSpeakersInfo"
           :key="index"
         >
           <speakerCardVue :item="item" />
-        </v-col> -->
+        </v-col>
       </v-row>
     </v-container>
   </v-main>
 </template>
 
 <script>
-// import speakerCardVue from "@/components/speakers/speakerCard.vue";
+import speakerCardVue from "@/components/speakers/speakerCard.vue";
 import speakersJSON from "@/assets/data/speakers.json";
 
 import devfestJSON from "@/assets/data/devfests.json";
@@ -49,13 +47,18 @@ import devfestJSON from "@/assets/data/devfests.json";
 export default {
   name: "SpeakersPages",
   components: {
-    // speakerCardVue,
+    speakerCardVue,
     
   },
   data: () => ({
     speakersInfo: speakersJSON,
     devfestInfo: devfestJSON,
   }),
+  computed: {
+    sortedSpeakersInfo() {
+      return [...this.speakersInfo].sort((a, b) => a.name.localeCompare(b.name));
+    },
+  },
 };
 </script>
 

@@ -36,7 +36,7 @@
               class="my-2 mt-3"
               style="text-align: left;font-size:25px;font-weight:500;color:black'line-height:15px"
             >
-              {{ data.title }} Details
+              {{ data.title }}
             </p>
               <p style="font-size: 110%">
                 <!-- <span class="mr-3">{{item.timeDuration}} Min</span> -->
@@ -149,10 +149,16 @@ export default {
   },
   methods: {
     getImgUrl(pic, defaultimage = "avatar.jpg") {
-      if (pic.length > 0) {
-        return require("@/assets/img/speakers/" + pic);
-      } else {
+      if (pic.length <= 0) {
         return require("@/assets/img/common/" + defaultimage);
+      } else {
+        if(pic.includes("http")){
+          return pic;
+        }
+        if(pic.includes("team/")){
+          return require("@/assets/img/team/" + pic.split("team/")[1]);
+        }
+        return require("@/assets/img/speakers/" + pic);
       }
     },
   },
