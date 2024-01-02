@@ -1,6 +1,6 @@
 {
-  "name":"DevFest Vizag",
-  "cover_image":"cover.png",
+  "name": "GDG Vizag",
+  "cover_image": "cover.png",
   "desc": {
     "short": "An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.",
     "long": "An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc."
@@ -19,7 +19,7 @@
     "map": ""
   },
   "registration": {
-    "link":"https://forms.gle/3SwoCqruyLudHBxG8",
+    "link": "https://forms.gle/3SwoCqruyLudHBxG8",
     "status": "1"
   },
   "call_for_speakers": {
